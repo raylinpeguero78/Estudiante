@@ -1,0 +1,309 @@
+body{
+    margin: 0;
+    background-color: #0b0c10
+
+
+
+  
+    
+ 
+ 
+}
+html{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 16px;
+   
+ 
+}
+
+*,
+*::after,
+*::before{
+box-sizing: inherit;
+
+}
+
+img{
+   
+    object-fit: cover;
+    width: 100%;
+
+
+
+}
+.cafe{
+    background-color: black;
+    text-align: center;
+  color: aqua;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 45px;
+ text-transform: uppercase;
+ position: relative;
+ margin: 0;
+ padding: 29px;
+
+}
+.leche{
+    background-color: aqua;
+    text-align: center;
+  color: black;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 35px;
+ text-transform: uppercase;
+ position: relative;
+ margin: 40;
+ padding: 14px;
+ margin-top: 70px;
+}
+
+.aristotle {
+    font-size: 17px;
+    line-height: 1.5;
+    color: #fbf3f3;
+    background-color: #0b0c10;
+    position: relative;
+    margin: 0;
+    width:96% ;
+border:3px solid aqua;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+  article{
+    background-color: #0b0c10;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 30px;
+   
+  }
+ header h1 {
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Alfa Slab One', cursive;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -khtml-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box; 
+    position: relative;
+    margin: 0;
+    
+    font-size: 50px;
+    padding: 17px;
+
+  
+
+ }
+ 
+  input {
+     
+        border-radius: 0;
+        font-family: 'Alfa Slab One', cursive;
+        margin-top: 10px; /* Ajusta la separación vertical */
+        margin-bottom: 10px; /* Ajusta la separación vertical (parte inferior) */
+        display: block;
+        font-size: 1em;
+        border: 0.05em solid #e5e5e5;
+        padding: 0.75em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        min-width: 14em;
+        color: #3c4044;
+        outline: none;
+        
+        padding: 14px;
+        margin: 16px ;
+        box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.20);
+        width: 10%;
+       
+    }
+    
+
+    input[type="text"]{
+    font-family:     'Alfa Slab One', cursive;
+    text-align: center;
+    margin: 16px 20px  25px 18px;
+
+    }
+    input[type="email"]{
+        font-family: 'Alfa Slab One', cursive;
+        text-align: center;
+        width: 10%;
+        margin: 16px 20px  25px 18px;
+    }
+  
+  input[type="date"] {
+    padding-top: 0.9em;
+    padding-bottom: 0.9em;
+    background: transparent;
+    background-image: none;
+    background-color: #fff;
+    background-size: 5%; 
+  font-family:   'Alfa Slab One', cursive;
+  width: 10%;
+  margin: 16px 20px  25px 18px;
+
+
+
+
+ 
+
+
+border-radius: 0;
+
+ }
+ input[type="submit"]
+ {
+    text-transform: capitalize;
+    border-radius: 0;
+    position: relative;
+    min-width: 14em;
+    font-family: 'Alfa Slab One', cursive;
+    color: #01182e;
+    display: block;
+    text-decoration: none;
+    margin: 0 auto;
+    border: 0;
+    background: aqua;
+    text-align: right;
+    padding: 1em 2em;
+    -webkit-box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.40);
+    -khtml-box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.45);
+    -ms-box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.45);
+    box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.100);
+    cursor: pointer;
+    padding-top: 1.25em;
+    padding-bottom: 1.5em;
+    text-shadow: 0 -0.05em 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.25em;
+    outline: none;
+    font-weight: 500;
+background-image: url(michaelmyers.png);
+
+background-repeat: no-repeat;
+font-size: 20px;
+margin: 16px 20px  25px 18px;
+
+
+ }
+ input[type="submit"]:hover {
+    background-color: #057a9e; /* Cambia el color de fondo cuando se pasa el cursor por encima */
+    color: #FFFFFF; /* Cambia el color del texto cuando se pasa el cursor por encima */
+    border: 2px solid #0b0c10; /* Cambia el borde cuando se pasa el cursor por encima */
+    /* Otros estilos de tu elección */
+  }
+  
+
+ 
+ form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #0c0c0c;
+    width: 100%;
+    padding-top: 50px;
+
+ 
+    
+
+  
+ }
+ .caja {
+    text-transform: capitalize;
+    border-radius: 18px;
+    position: relative;
+    min-width: 1em;
+  
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    margin: 0 auto;
+    border: 0;
+    background: #fcd40e;
+    text-align: center;
+    padding: 1em 1em;
+    -webkit-box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.35);
+    -khtml-box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.35);
+    -ms-box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.35);
+    box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.35);
+    border: 1px solid rgb(7, 7, 7);
+    color: rgb(7, 25, 25);
+    background-color: rgb(15, 46, 46);
+   
+    font-weight: bold;
+    width: 70px;
+    height: 70px;
+    line-height: 50px;
+    justify-content: center;
+    margin: 1px;
+    max-width: 70%;
+    margin-top: -140px;
+    animation: holafloat 3s infinite ease-in-out;
+    display: flex;
+    align-items: center;
+    
+ }
+    select {
+
+    border-radius: 0;
+    font-family: 'Alfa Slab One', cursive;
+    margin-top: 10px; /* Ajusta la separación vertical */
+    margin-bottom: 10px; /* Ajusta la separación vertical (parte inferior) */
+    display: block;
+    font-size: 1em;
+    border: 0.05em solid #e5e5e5;
+    padding: 0.75em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    min-width: 14em;
+    color: #3c4044;
+    outline: none;
+    
+    padding: 14px;
+    margin: 0 auto;
+    box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.20);
+
+ }
+ option{
+    font-family: 'Alfa Slab One', cursive;
+ }
+  
+ @keyframes holafloat {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+ 
+
+ @media (max-width: 468px){
+    header h1{
+        font-size: 25px;
+        padding: 17px;
+       text-align: center;
+    }
+.cafe{
+    font-size: 30px;
+}
+ }
+
+ 
+ @media (max-width: 468px){
+    input{
+        width: 50%;
+    }
+
+ }
